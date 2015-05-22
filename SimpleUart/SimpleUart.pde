@@ -4,7 +4,7 @@ Serial myPort;
 int x; 
 void setup(){
   size(256, 512);
-myPort = new Serial(this, "COM6", 9600);
+myPort = new Serial(this, "COM5", 9600);
 }
 
 void draw(){
